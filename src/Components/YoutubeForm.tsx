@@ -135,6 +135,15 @@ export const YouTubeForm = () => {
             />
           </div>
 
+          <div className="formControl">
+            <label htmlFor="secondary-number">Secondary Phone Number</label>
+            <input
+              type="text"
+              id="secondary-number"
+              {...register("phoneNumber.1")}
+            />
+          </div>
+
           <div>
             <label>List of phone numbers</label>
             <div>
